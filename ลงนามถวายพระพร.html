@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ลงนามถวายพระพร</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      background-color: #ffb700;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .form-container {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1em;
+    }
+
+    button {
+      background-color: #efb114;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #b89010;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>ลงนามถวายพระพร</h1>
+    <form action="หน้าหลัก.html" method="post">
+      <input type="text" name="name" placeholder="ชื่อ - นามสกุล" required>
+      <textarea name="message" rows="4" placeholder="ข้อความถวายพระพร" required></textarea>
+      <button type="submit">ลงนาม</button>
+    </form>
+  </div>
+
+</body>
+</html>
